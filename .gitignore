@@ -1,0 +1,15 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore __pycache__ folders
+__pycache__/
+
+# Ignore .pyc files
+*.pyc
+
+# Ignore .spec files
+*.spec
