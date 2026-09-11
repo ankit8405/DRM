@@ -163,5 +163,5 @@ def decrypt_file(filepath: str, password: str):
         result = convert_to_images(decrypted_file_path, watermark_text), metadata
     else:
         raise ValueError("Unsupported file type after decryption.")
-        
+        print("H")
     return result
