@@ -1,0 +1,9 @@
+PyQt5==5.15.11
+cryptography==45.0.4
+Pillow==11.3.0
+PyMuPDF==1.26.3
+opencv-python==4.11.0.86
+filetype==1.2.0
+psutil==7.0.0
+pywin32==310; sys_platform == "win32"
+pyinstaller==6.14.1
