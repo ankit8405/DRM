@@ -15,7 +15,6 @@ try:
     atexit.register(pythoncom.CoUninitialize)
 except ImportError:
     print("Warning: pywin32 is not installed. Clipboard-related features may not work properly.")
-    print("H")
 
 def main():
     QApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
