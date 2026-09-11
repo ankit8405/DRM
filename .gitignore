@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 *.spec
 *.mylock
+.DS_Store
